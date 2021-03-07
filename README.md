@@ -1,2 +1,1 @@
-# Redes
-Esta **palabra** va en negrita.
+##MANUAL DE CONFIGURACION
