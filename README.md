@@ -1,2 +1,2 @@
 # Redes
-Esta \textbf{palabra} va en negrita.
+Esta **palabra** va en negrita.
