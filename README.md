@@ -8,12 +8,17 @@ Pasos para configurar la topologia 1.
 - En la pestaña VMware VMs se podra ver la maquina virtual, seleccionar "type" el cual se encuentra en network y presionar editar, en la nueva ventana ir a la pestaña network y cambiar la opcion type a vmxnet3.
 - Ahora podra usar la maquina virtual en su topologia.
  ### Diseñar la topologia
- - Se utilizaran 3 vpcs, 3 maquinas virtuales, 4 switch y un cloud. 
- - Se debe configurar el nombre de cada host.
- - Unir cada host con su respectivo switch.
-### configurar vpcs
--Encender la vpc, abrir la ventana de comandos, utilizar el comando.
--ingresar el comando save para guardar los cambios y repetir el proceso con todas las vpc
+- Se utilizaran 3 vpcs, 3 maquinas virtuales, 4 switch y un cloud. 
+- Se debe configurar el nombre de cada host.
+- Unir cada host con su respectivo switch.
+### Configurar host
+- Encender la vpc, abrir la ventana de comandos, utilizar el comando "ip 'tu ip'/'tu gateway' 'tu puerta de enlace'".
+- ingresar el comando save para guardar los cambios y repetir el proceso con todas las vpc.
+- Encender la maquina virtual, ir a "conexiones de red", entrar en Local area conection, ir a propiedades, ir a protocolo de internet(TCP/IP) y modificar la ip.
+- En este punto ya todos los hosts fueron configurados
+### Configurar switch
+- Hacer click en el switch, para configurar el puerto conectado a un host colocar el puerto a modificar en port, colocar la VLAN en VLAN y seleccionar aplicar.
+- En la misma ventana, para configurar el puerto conectado a otro switch o cloud, colocar el puerto a modificar en port, en type seleccionar dot1q y seleccionar aplicar.
 
 
 
