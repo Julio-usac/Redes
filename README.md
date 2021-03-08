@@ -11,8 +11,10 @@ Pasos para configurar la topologia 1.
  - Se utilizaran 3 vpcs, 3 maquinas virtuales, 4 switch y un cloud. 
  - Se debe configurar el nombre de cada host.
  - Unir cada host con su respectivo switch.
-### configurar host
--
+### configurar vpcs
+-Encender la vpc, abrir la ventana de comandos, utilizar el comando.
+-ingresar el comando save para guardar los cambios y repetir el proceso con todas las vpc
+
 
 
 ## Topología 2
