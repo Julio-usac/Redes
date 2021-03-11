@@ -110,3 +110,23 @@ Cabe destacar que las conexiones entre los switches se realizan en modo dot1q y 
 <p align="center">
   <img src="imagen/Topo2_5.png" width="600">
 </p>
+
+- Como siguiente paso le damos click en Add y agregamos la direccion IP que le queremos asignar a la maquina, en este caso es la 192.168.21.150 con gateway para 192.168.21.1
+
+<p align="center">
+  <img src="imagen/Topo2_6.png" width="600">
+</p>
+
+- Verificamos que los cambios se guardaron ejecutando el comando ifconfig desde la terminal.
+
+<p align="center">
+  <img src="imagen/Topo2_7.png" width="600">
+</p>
+
+### Python 2 HTTP Server:
+
+- En la máquina virtual procedemos a crear una carpeta que se llamará Conta en la cual levantaremos el HTTP Server, cabe recordar que el sistema operativo Ubuntu 16.04 LTS ya trae instalado python. A esta carpeta le creamos un archivo index.html con el contenido html a mostrar, luego procedemos a levantar el servidor con el siguiente comando: sudo python -m SimpleHTTPServer. Por defecto ya trae el puerto 8000 para levantar el servidor pero se lo podemos cambiar al que deseemos.
+
+<p align="center">
+  <img src="imagen/Topo2_8.png" width="600">
+</p>
