@@ -77,5 +77,36 @@ Pasos para configurar la topologia 2.
 - Ya al agregar las 3 máquinas  en la seccion de VMWare nos muestra las 3 maquinas que agregamos
 
 <p align="center">
-  <img src="imagen/Captura de pantalla (71).png" width="600">
+  <img src="Topo2_1.png" width="600">
+</p>
+
+### Diseño de la topología:
+- Se utilizaran 3 maquinas virtuales, 3 switch y un cloud. 
+- Se debe configurar el nombre de cada servidor.
+- Unir cada servidor con su respectivo switch.
+
+Cabe destacar que las conexiones entre los switches se realizan en modo dot1q y entre switch-server en modo acceso.
+
+<p align="center">
+  <img src="Topo2_2.png" width="600">
+</p>
+
+### Configuración de los Servers:
+
+- Procederemos a configurar el Server-Contabilidad, para esto hacemos click sobre la maquina virtual y luego Start para encenderla
+
+<p align="center">
+  <img src="Topo2_3.png" width="600">
+</p>
+
+- Nos vamos a System Settings y luego click en Network
+
+<p align="center">
+  <img src="Topo2_4.png" width="600">
+</p>
+
+- Configuramos Wired Connection 1 y cambiamos "Automatic (DHCP)" a "Manual"
+
+<p align="center">
+  <img src="Topo2_5.png" width="600">
 </p>
