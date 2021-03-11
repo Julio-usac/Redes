@@ -77,7 +77,7 @@ Pasos para configurar la topologia 2.
 - Ya al agregar las 3 máquinas  en la seccion de VMWare nos muestra las 3 maquinas que agregamos
 
 <p align="center">
-  <img src="Topo2_1.png" width="600">
+  <img src="imagen/Topo2_1.png" width="600">
 </p>
 
 ### Diseño de la topología:
@@ -88,7 +88,7 @@ Pasos para configurar la topologia 2.
 Cabe destacar que las conexiones entre los switches se realizan en modo dot1q y entre switch-server en modo acceso.
 
 <p align="center">
-  <img src="Topo2_2.png" width="600">
+  <img src="imagen/Topo2_2.png" width="600">
 </p>
 
 ### Configuración de los Servers:
@@ -96,17 +96,17 @@ Cabe destacar que las conexiones entre los switches se realizan en modo dot1q y 
 - Procederemos a configurar el Server-Contabilidad, para esto hacemos click sobre la maquina virtual y luego Start para encenderla
 
 <p align="center">
-  <img src="Topo2_3.png" width="600">
+  <img src="imagen/Topo2_3.png" width="600">
 </p>
 
 - Nos vamos a System Settings y luego click en Network
 
 <p align="center">
-  <img src="Topo2_4.png" width="600">
+  <img src="imagen/Topo2_4.png" width="600">
 </p>
 
 - Configuramos Wired Connection 1 y cambiamos "Automatic (DHCP)" a "Manual"
 
 <p align="center">
-  <img src="Topo2_5.png" width="600">
+  <img src="imagen/Topo2_5.png" width="600">
 </p>
