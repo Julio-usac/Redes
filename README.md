@@ -70,3 +70,12 @@ Pasos para configurar la topologia 1.
 </p>
 
 ## Topología 2
+Pasos para configurar la topologia 2.
+### Agregar las máquinas virtuales:
+- Para esta topologia se usarán 3 maquinas virtuales con el sistema Operativo Ubuntu 16.04 LTS, se proceden a agregar de la misma manera que se explicó en la topologia 1.Para este caso se usarán como servidores los cuales uno será para la VLAN del área de Contabilidad, otra para el área de Informática y otra para Ventas.
+
+- Ya al agregar las 3 máquinas  en la seccion de VMWare nos muestra las 3 maquinas que agregamos
+
+<p align="center">
+  <img src="imagen/Captura de pantalla (71).png" width="600">
+</p>
