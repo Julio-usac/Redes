@@ -93,7 +93,7 @@ Cabe destacar que las conexiones entre los switches se realizan en modo dot1q y 
 
 ### Configuración de los Servers:
 
-- Procederemos a configurar el Server-Contabilidad, para esto hacemos click sobre la maquina virtual y luego Start para encenderla
+- Procederemos a configurar el Server-Contabilidad, para esto hacemos click sobre la maquina virtual y luego Start para encenderla.
 
 <p align="center">
   <img src="imagen/Topo2_3.png" width="600">
