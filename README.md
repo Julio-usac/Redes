@@ -130,3 +130,54 @@ Cabe destacar que las conexiones entre los switches se realizan en modo dot1q y 
 <p align="center">
   <img src="imagen/Topo2_8.png" width="600">
 </p>
+
+## VPN
+
+- Utilizando Google cloud como plataforma de servicio en la nube creamos una instancia de maquina virtual con sistema operativo Ubuntu y al menos 20 GB de espacio en disco disco.
+
+<p align="center">
+  <img src="imagen/Te.png" width="600">
+</p>
+
+- Entramos en "configura las reglas de Firewall" y seleccionamos "crear regla de firewall".
+
+<p align="center">
+  <img src="imagen/ne.png" width="600">
+</p>
+
+- Le damos un nombre a la regla, en el campo "Destinos" seleccionamos "Todas las instancias de red", en "Rangos de IP de origen" escribimos "0.0.0.0/0", en "Protocolos y puertos" seleccionamos "Permitir todo" y creamos la regla de firewall.
+
+<p align="center">
+  <img src="imagen/mos.png" width="600">
+</p>
+
+- De vuelta en las instancias de VM abrimos la consola de la maquina virtual oprimiendo el boton SSH de la seccion Conectar.
+
+<p align="center">
+  <img src="imagen/que.png" width="600">
+</p>
+
+- Ya en la consola escribimos los siguientes comandos:
+  1. sudo apt-get update
+  2. sudo apt-get upgrade
+  3. sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh && sudo bash openvpn-install.sh
+
+- Proporcionamos la direccion IP interna de la maquina virtual, luego la direccion publica de la maquina virtual, en protocolo de conexion elegimos la opcion 1, en puerto escribimos el 1194, en DNS elegimos la opcion 3 Google y finalmente escribimos el nombre del primer cliente.
+
+- Luego que termine la instalacion y configuración nos dara una dirección donde se creo un archivo. En la consola en la parte superior derecha se encuentra el icono de un engrane, le damos clic y seleccionamos "descargar el archivo" y en la pantalla emergente escribimos la direccion que se nos proporciono y descargamos el archivo.
+
+<p align="center">
+  <img src="imagen/ha.png" width="600">
+</p>
+
+- Abrimos el OpenVPN y agregamos una conexion, seleccionamos la seccion de File y abrimos el archivo que descargamos desde la maquina virtual.
+
+<p align="center">
+  <img src="imagen/blar.png" width="300">
+</p>
+
+- De esta manera se agregara al programa la conexion a nuestra VPN ya solo debemos conectarnos y se nos asignara una direccion IP perteneciente a nuestra VPN.
+
+<p align="center">
+  <img src="imagen/tenemos que hablar.png" width="300">
+</p>
